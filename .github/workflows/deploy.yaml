@@ -30,6 +30,7 @@ jobs:
 
   compile:
     # Specify the Os for the runner (container)
+    needs: test
     runs-on: ubuntu-latest  # Use the latest Ubuntu runner
 
     steps:
